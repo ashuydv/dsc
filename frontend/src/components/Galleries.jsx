@@ -185,7 +185,7 @@ const Galleries = () => {
   ];
 
   return (
-    <div className="gallery-container flex items-center justify-center gap-4 flex-wrap">
+    <div className="gallery-container flex items-center justify-center gap-4 flex-wrap py-4 pb-8">
       {arr.map((item) => (
         <ComponentCard
           key={item.id}
